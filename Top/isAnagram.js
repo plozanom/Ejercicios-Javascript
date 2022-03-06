@@ -7,8 +7,6 @@ function isAnagram(s,t){
     let sArray = []
     let tArray = []
     let counter = 0
-    let tMap = {}
-    let sMap = {}
 
     for (i of t){
         tArray.push(i)
